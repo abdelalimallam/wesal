@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.StartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/_16sdp"
+        android:paddingBottom="@dimen/_16sdp"
+        tools:context=".activities.StartActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_enter_key"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_16sdp"
+            android:gravity="center"
+            android:text="@string/enter_the_key"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_32sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/the_code_you_received_with_sms" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_36sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_36sdp"
+            android:background="@drawable/rounded_frame"
+            android:orientation="horizontal"
+            android:padding="@dimen/_6sdp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_digit_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="·"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="@dimen/_24sdp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_digit_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="·"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="@dimen/_24sdp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_digit_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="·"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="@dimen/_24sdp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_digit_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="·"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="@dimen/_24sdp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_digit_5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="·"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="@dimen/_24sdp" />
+
+
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_36sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_36sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_16sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            app:cornerRadius="@dimen/_16sdp"
+            app:icon="@drawable/ic_arrow_forward"
+            app:iconGravity="textEnd"
+            app:iconSize="@dimen/_16sdp"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+</ScrollView>

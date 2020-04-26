@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StartActivity">
+
+    <ImageView
+        android:id="@+id/iv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:src="@drawable/ic_welcome"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_have_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_16sdp"
+        android:gravity="center"
+        android:text="@string/do_you_have_a_key"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/_32sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_have_key"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/my_family_was_invited_me_to_njoin_them_i_have_a_key"
+        android:textSize="@dimen/_12sdp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_grey_bottom"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/the_code_you_received_with_sms" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_invited"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_36sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_36sdp"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:paddingTop="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp"
+                android:text="@string/yes_i_was_invited"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                app:cornerRadius="@dimen/_16sdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_first_time"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_36sdp"
+                android:layout_marginEnd="@dimen/_36sdp"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:gravity="center"
+                android:paddingTop="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp"
+                android:text="@string/no_the_first_time_here"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                app:cornerRadius="@dimen/_16sdp"
+                app:strokeColor="@color/colorPrimaryDark"
+                app:strokeWidth="@dimen/_1sdp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

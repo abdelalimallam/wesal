@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Wesal</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="do_you_have_a_key">Do you have \na <b>key</b></string>
+    <string name="the_code_you_received_with_sms">The code you received with <b>SMS</b></string>
+    <string name="my_family_was_invited_me_to_njoin_them_i_have_a_key">My family was invited me to\njoin them, I have a key</string>
+    <string name="yes_i_was_invited">Yes, I was invited</string>
+    <string name="no_the_first_time_here">No, the first time here</string>
+    <string name="welcome_to_wesal">Welcome to Wesal …</string>
+    <string name="enter_the_key">Enter the <b>key</b></string>
+    <string name="create_your_own">Create your own</string>
+    <string name="choose_a_great_name_for_your_family_council">Choose A Great\nName For Your\n<b>Family Council</b></string>
+    <string name="name">Name</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="your_personal_information">Your <b>Personal\nInformation</b></string>
+    <string name="full_name">Full name</string>
+    <string name="phone">Phone</string>
+    <string name="you_will_receiving_otp_code_with_sms">You will receiving OTP code with <b>SMS</b></string>
+    <string name="confirm_your_phone_number"><b>Confirm</b> Your\nPhone Number</string>
+    <string name="you_recived_otp_code_with_sms">You Received OTP Code With <b>SMS</b></string>
+    <string name="code">Code</string>
+    <string name="resend_otp_code">Resend OTP code</string>
+    <string name="all_done_welcome"><b>All done</b>, welcome</string>
+    <string name="family_is_a_very_precious_thing_take_good_care_of_it">Family Is A Very Precious Thing,\nTake Good Care Of It</string>
+    <string name="invite_your_family">Invite Your Family</string>
+    <string name="share_my_key">Share my key</string>
+    <string name="later_move_to_my_council">Later, move to my council</string>
+    <string name="password">Password</string>
+
+    <string name="exist_email_error">There\'s already user with this Email</string>
+
+</resources>

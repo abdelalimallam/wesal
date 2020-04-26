@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "189601863587",
+    "firebase_url": "https://wesal-app.firebaseio.com",
+    "project_id": "wesal-app",
+    "storage_bucket": "wesal-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189601863587:android:fc13f781dccec7b2fb6c16",
+        "android_client_info": {
+          "package_name": "wesal.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189601863587-vk7e7knvusbeqkdonhqok8gii62u1er4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOjn-ITKHd7b0EUEsSw1_PgvMv1IpqwdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189601863587-vk7e7knvusbeqkdonhqok8gii62u1er4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

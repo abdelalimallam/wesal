@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_bx_home_heart"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_online"
+        android:icon="@drawable/ic_bx_bolt_circle"
+        android:title="Now" />
+
+    <item
+        android:id="@+id/navigation_Activities"
+        android:icon="@drawable/ic_bx_joystick"
+        android:title="Activities" />
+
+    <item
+        android:id="@+id/navigation_Me"
+        android:icon="@drawable/ic_profile"
+        android:title="Me" />
+
+</menu>
